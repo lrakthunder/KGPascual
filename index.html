@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Karl Pascual v4.0.2 - Full Stack Engineer building high-performance web applications with immersive user interfaces.">
+    <title>KARL PASCUAL v4.0.2 | Full Stack Engineer</title>
+    
+    <!-- Open Graph / SEO -->
+    <meta property="og:title" content="Karl Gilbert Pascual | Full-Stack Developer">
+    <meta property="og:description" content="Building reliable full-stack web applications with clean architecture, documentation, and maintainable code.">
+    <meta property="og:type" content="website">
+
+    <!-- CDN performance hints -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+    <!-- CDN-hosted Inter font -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.18/files/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.18/index.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">KGPascual</a>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Overview</a>
+                <a href="#work">Projects</a>
+                <a href="#process">Journey</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark Mode">
+                    <!-- Sun Icon -->
+                    <svg id="sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                </button>
+                <a href="#contact" class="btn btn-primary" style="padding: 8px 16px;">Available Now</a>
+                <button class="mobile-toggle" id="menuToggle">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="badge" style="margin-bottom: 1rem;">Available for new Projects</div>
+            <h1>BUILDING THE <span style="color:var(--primary)">DIGITAL FRONTIER</span></h1>
+            <p>Hi, I’m Karl Gilbert Pascual, a Full Stack Engineer specializing in high-performance web applications with immersive user interfaces. Skilled in React, Vue, Javascript, TypeScript, and Laravel/PHP, I’m dedicated to crafting innovative solutions that push the boundaries of what the web can do.</p>
+            
+            <!-- Button -->
+            <!-- <div class="hero-actions">
+                <a href="#work" class="btn btn-primary">View Projects</a>
+                <a href="#process" class="btn btn-outline">View Journey</a>
+            </div> -->
+
+            <div class="trust-strip">
+                <div class="trust-item">✔ Full-Stack Web Development</div>
+                <div class="trust-item">✔ Database Design & Optimization</div>
+                <div class="trust-item">✔ Application Performance Tuning</div>
+            </div>
+        </div>
+
+        <div class="hero-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 24px;">
+                <div>
+                    <h3 style="margin:0">Current Availability</h3>
+                    <p style="font-size: 0.9rem; margin:0">Immediately available for new opportunities</p>
+                </div>
+                <span class="status-dot"></span>
+            </div>
+            <div style="background: var(--bg); padding: 16px; border-radius: 12px; margin-bottom: 16px;">
+                <p style="font-size: 0.85rem; margin-bottom: 8px;"><strong>Most Recent Role</strong></p>
+                <p style="margin:0; color: var(--text-main);">R2M IT Solutions, Inc. (Aug 2023 - Jan 2026)</p>
+            </div>
+            <p style="font-size: 0.8rem; font-style: italic; margin: 0;">Core capabilities: Full-Stack Web Development, UI/UX Implementation, and performance-focused engineering.</p>
+        </div>
+    </section>
+
+    <!-- METRICS STRIP -->
+    <section id="proof" class="reveal">
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <span class="metric-value">6+</span>
+                <span class="metric-label">Years of Experience</span>
+                <p class="metric-proof">Across development and IT operations roles</p>
+            </div>
+            <div class="metric-card">
+                <span class="metric-value">4</span>
+                <span class="metric-label">Organizations Served</span>
+                <p class="metric-proof">Including software, academe, and healthcare</p>
+            </div>
+            <div class="metric-card">
+                <span class="metric-value">1</span>
+                <span class="metric-label">Core Focus</span>
+                <p class="metric-proof">Full-stack web development with modern JS tools</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORK SECTION -->
+    <section id="work" class="reveal">
+        <div class="section-header">
+            <h2>PROJECTS</h2>
+            <p>Production-focused systems and ongoing modules built with modern full-stack tools.</p>
+        </div>
+
+        <div class="work-grid">
+            <!-- Featured Card 1 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="dist/Expense_Tracker.jpg" alt="Expense Tracker project preview" loading="lazy" decoding="async" fetchpriority="low">
+                </div>
+                <div class="project-body">
+                    <div class="project-tags">
+                        <span class="badge">STATUS: COMPLETED</span>
+                    </div>
+                    <h3>EXPENSE TRACKER</h3>
+                    <p>A modern expense tracking app using Laravel 11 + Vue 3 (Vite) with dashboards, charts, calendar tracking, and PDF reports.</p>
+                    <button class="btn btn-outline modal-trigger" data-project="1">ACCESS MODULE ></button>
+                </div>
+            </div>
+
+            <!-- Featured Card 2 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="dist/Hospital_Appointment_System.jpg" alt="Hospital Appointment System project preview" loading="lazy" decoding="async" fetchpriority="low">
+                </div>
+                <div class="project-body">
+                    <div class="project-tags">
+                        <span class="badge">STATUS: IN-PROGRESS</span>
+                    </div>
+                    <h3>HOSPITAL APPOINTMENT SYSTEM</h3>
+                    <p>Patient and appointment management system with scheduling, assignment, and reporting.</p>
+                    <button class="btn btn-outline modal-trigger" data-project="2">ACCESS MODULE ></button>
+                </div>
+            </div>
+
+            <!-- Featured Card 3 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="dist/Work_Journey.jpg" alt="Work Application Tracker project preview" loading="lazy" decoding="async" fetchpriority="low">
+                </div>
+                <div class="project-body">
+                    <div class="project-tags">
+                        <span class="badge">STATUS: COMPLETED</span>
+                    </div>
+                    <h3>WORK APPLICATION TRACKER</h3>
+                    <p>A modern tracker for managing work applications, progress states, and reporting workflows.</p>
+                    <button class="btn btn-outline modal-trigger" data-project="3">ACCESS MODULE ></button>
+                </div>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 80px; text-align: center;">Project Stack Snapshot</h3>
+        <div class="more-projects">
+            <!-- 6 Small Cards -->
+            <div class="project-card" style="padding: 20px;">
+                <h4>Vue / Laravel</h4>
+                <p style="font-size: 0.9rem;">Production-ready full-stack setup</p>
+            </div>
+            <div class="project-card" style="padding: 20px;">
+                <h4>PHP / TypeScript</h4>
+                <p style="font-size: 0.9rem;">System modules and integrations</p>
+            </div>
+            <div class="project-card" style="padding: 20px;">
+                <h4>MySQL</h4>
+                <p style="font-size: 0.9rem;">Schema and query design</p>
+            </div>
+            <div class="project-card" style="padding: 20px;">
+                <h4>Git / SourceTree</h4>
+                <p style="font-size: 0.9rem;">Version control workflows</p>
+            </div>
+            <div class="project-card" style="padding: 20px;">
+                <h4>Docker / Jenkins</h4>
+                <p style="font-size: 0.9rem;">Containerized and CI-oriented development</p>
+            </div>
+            <div class="project-card" style="padding: 20px;">
+                <h4>Portfolio Link</h4>
+                <p style="font-size: 0.9rem;">lrakthunder.github.io/KGCPascual</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="reveal">
+        <div class="section-header">
+            <h2>CORE CAPABILITIES</h2>
+            <p>Aligned with your previous portfolio capability blocks.</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Engineering Focus</h3>
+                <p>Full-Stack Web Development with practical UI and backend integration.</p>
+                <ul style="color: var(--text-muted); font-size: 0.9rem;">
+                    <li>• Full-Stack Web Development</li>
+                    <li>• UI/UX Implementation</li>
+                    <li>• Application Performance Tuning</li>
+                </ul>
+            </div>
+            <div class="service-card" style="border-color: var(--primary);">
+                <h3>Data & Architecture</h3>
+                <p>Database-focused design and optimization for production systems.</p>
+                <ul style="color: var(--text-muted); font-size: 0.9rem;">
+                    <li>• Database Design & Optimization</li>
+                    <li>• MySQL / PostgreSQL Workflows</li>
+                    <li>• Git / Version Control</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <h3>Foundations</h3>
+                <p>Strong fundamentals for beginner and intermediate programming tracks.</p>
+                <ul style="color: var(--text-muted); font-size: 0.9rem;">
+                    <li>• Beginner Programming Fundamentals</li>
+                    <li>• Intermediate Programming Fundamentals</li>
+                    <li>• Documentation & Analytical Thinking</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process" class="reveal">
+        <div class="section-header">
+            <h2>JOURNEY</h2>
+            <p>Career timeline across software development, research, mapping, and healthcare IT support.</p>
+        </div>
+
+        <div class="process-list">
+            <div class="process-step">
+                <div class="process-dot"></div>
+                <h4>2026 - Full Stack Developer</h4>
+                <p>R2M IT Solutions, Inc. (August 2023 - January 2026): Full-stack development of new features for systems including Retirement, Eportal, Payroll, and Loans. Support work included bug fixes, updates, and documentation.</p>
+            </div>
+            <div class="process-step">
+                <div class="process-dot"></div>
+                <h4>2023 - Research Aide</h4>
+                <p>University of Southern Mindanao - Main Campus (March 2023 - August 2023): Documented research processes, daily activities, and field survey work.</p>
+            </div>
+            <div class="process-step">
+                <div class="process-dot"></div>
+                <h4>2022 - Map Data Processor</h4>
+                <p>Philippine Statistics Authority - Kidapawan Branch (April 2022 - November 2022): Performed map enhancement and fixed technical errors in the QGIS system.</p>
+            </div>
+            <div class="process-step">
+                <div class="process-dot"></div>
+                <h4>2021 - IT Officer</h4>
+                <p>Deseret Ambulatory Referral Center Foundation, Inc. (September 2019 - October 2021): Managed ECS data submission and resolved clinic computer technical issues.</p>
+            </div>
+            <div class="process-step">
+                <div class="process-dot"></div>
+                <h4>2019 - IT Officer</h4>
+                <p>Deseret Surgimed Hospital (June 2019 - July 2019): Managed ECS data submission and resolved hospital technical issues.</p>
+            </div>
+        </div>
+
+        <div style="background: var(--surface); padding: 32px; border-radius: var(--radius); text-align: center; border: 1px dashed var(--border);">
+            <h4 style="margin: 0;">Currently available and open to opportunities.</h4>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="reveal">
+        <div class="contact-wrapper">
+            <div>
+                <h2>About</h2>
+                <p>Basic to Intermediate knowledge in Programming Fundamentals, modern web stack, backend systems, and delivery tooling.</p>
+                <p>Focused on maintainable engineering, strong version-control discipline, and practical implementation quality.</p>
+                
+                <h4 style="margin-top: 32px;">Educational Background</h4>
+                <ul style="color: var(--text-muted);">
+                    <li>• Bachelor of Science in Computer Science</li>
+                    <li>• University of Southern Mindanao (2013 - 2018)</li>
+                    <li>• Kabacan, North Cotabato, Philippines</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Technical Skills</h4>
+                <div class="tag-cloud">
+                    <span class="skill-tag">Programming Fundamentals 85%</span>
+                    <span class="skill-tag">Web Fundamentals 85%</span>
+                    <span class="skill-tag">JavaScript 85%</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Vue</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">Angular</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">Laravel</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">NPM / PNPM</span>
+                    <span class="skill-tag">Tailwind CSS</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Jenkins</span>
+                    <span class="skill-tag">Cypress (E2E)</span>
+                    <span class="skill-tag">SourceTree</span>
+                </div>
+
+                <h4 style="margin-top: 32px;">Core Areas</h4>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div>
+                        <strong>Frontend</strong>
+                        <p style="font-size: 0.85rem;">React / Next.js, Vue.js, UI implementation</p>
+                    </div>
+                    <div>
+                        <strong>Backend</strong>
+                        <p style="font-size: 0.85rem;">Laravel/PHP, Node.js, MySQL design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="reveal" style="background: var(--surface); border-radius: 40px; margin-top: 60px;">
+        <div class="section-header">
+            <h2>Achievements</h2>
+        </div>
+        <div class="work-grid">
+            <div class="service-card">
+                <h4>6 Years Experience</h4>
+                <p>12+ projects completed with production-focused implementation and support.</p>
+            </div>
+            <div class="service-card">
+                <h4>15+ Technologies</h4>
+                <p>100% client satisfaction mindset with consistent delivery, updates, and documentation.</p>
+            </div>
+        </div>
+
+        <div class="certificates-wrap">
+            <h3 class="certificates-title">Certificates</h3>
+            <div class="certificates-grid">
+                <article class="service-card certificate-card">
+                    <img class="certificate-image" src="certificates/CertificateOfCompletion_Advanced%20Laravel_page-0001.jpg" alt="Advanced Laravel certificate" loading="lazy" decoding="async" fetchpriority="low">
+                    <div class="certificate-info">
+                        <h4>Advanced Laravel</h4>
+                        <p>Completed Feb 22, 2026</p>
+                        <a class="certificate-link" href="https://www.linkedin.com/learning/certificates/a806fddde802f2ed0be12d5b2922cc8d00febb8857d75dd0bf523e4c79e4bbcc?trk=share_certificate" target="_blank" rel="noopener noreferrer">Visit Certificate</a>
+                    </div>
+                </article>
+                <article class="service-card certificate-card">
+                    <img class="certificate-image" src="certificates/CertificateOfCompletion_CSS%20Essential%20Training%202023_page-0001.jpg" alt="CSS Essential Training certificate" loading="lazy" decoding="async" fetchpriority="low">
+                    <div class="certificate-info">
+                        <h4>CSS Essential Training (2023)</h4>
+                        <p>Completed Feb 21, 2026</p>
+                        <a class="certificate-link" href="https://www.linkedin.com/learning/certificates/b05ef8cc7d9cdc88399f8b10e68c98845cc631c85e3583082de3c3238a2bff97?trk=share_certificate" target="_blank" rel="noopener noreferrer">Visit Certificate</a>
+                    </div>
+                </article>
+                <article class="service-card certificate-card">
+                    <img class="certificate-image" src="certificates/CertificateOfCompletion_Laravel%20Essential%20Training_page-0001.jpg" alt="Laravel Essential Training certificate" loading="lazy" decoding="async" fetchpriority="low">
+                    <div class="certificate-info">
+                        <h4>Laravel Essential Training</h4>
+                        <p>Completed Feb 21, 2026</p>
+                        <a class="certificate-link" href="https://www.linkedin.com/learning/certificates/2b2a5c470ea5ddde9ff878953d50f1a4ccaade897771f115a59372ef36cb66af?trk=share_certificate" target="_blank" rel="noopener noreferrer">Visit Certificate</a>
+                    </div>
+                </article>
+                <article class="service-card certificate-card">
+                    <img class="certificate-image" src="certificates/CertificateOfCompletion_Learning%20the%20JavaScript%20Language_page-0001.jpg" alt="Learning the JavaScript Language certificate" loading="lazy" decoding="async" fetchpriority="low">
+                    <div class="certificate-info">
+                        <h4>Learning the JavaScript Language</h4>
+                        <p>Completed Feb 21, 2026</p>
+                        <a class="certificate-link" href="https://www.linkedin.com/learning/certificates/3ddb9eafffd4346616ad8c041b13fd608c801e6025a45927c4bfa7a78680256d?trk=share_certificate" target="_blank" rel="noopener noreferrer">Visit Certificate</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="reveal">
+        <div class="contact-wrapper">
+            <div>
+                <h2>CONTACT</h2>
+                <p>Let's discuss your project. Feel free to reach out via email or send a message below.</p>
+                
+                <div style="margin-top: 40px;">
+                    <p><strong>Email:</strong> karlgilbertpascual@gmail.com</p>
+                    <p><strong>Phone:</strong> +63 975 7522 026</p>
+                    <p><strong>Location:</strong> Based in Philippines (Available for remote work)</p>
+                    <p><strong>Availability:</strong> Currently Available. Open to opportunities.</p>
+                    <p><strong>Resume:</strong> Feel free to view/download my resume.</p>
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 8px;">
+                        <a href="dist/KGCPascual-Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Resume</a>
+                    </div>
+                </div>
+            </div>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Example Name" required>
+                </div>
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="example@email.com" required>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div class="form-group">
+                        <label>Project Type</label>
+                        <select>
+                            <option>SaaS Development</option>
+                            <option>E-commerce</option>
+                            <option>UX Audit</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Budget Range</label>
+                        <select>
+                            <option>$2k - $5k</option>
+                            <option>$5k - $10k</option>
+                            <option>$10k+</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Tell me about your project goals..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-links">
+            <a href="#work">Projects</a>
+            <a href="#services">Core Capabilities</a>
+            <a href="#process">Journey</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <p style="font-size: 0.9rem;">&copy; 2026 KARL GILBERT PASCUAL</p>
+        <button onclick="window.scrollTo(0,0)" class="btn-outline btn" style="margin-top: 20px; font-size: 0.8rem;">↑ Back to Top</button>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal" aria-label="Close project details">&times;</button>
+            <div id="modalBody" class="project-modal-body">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- TOAST -->
+    <div class="toast" id="toast">Message sent successfully!</div>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        /* 
+        ========================================
+        THEME TOGGLE
+        ========================================
+        */
+        const themeToggle = document.getElementById('themeToggle');
+        const htmlElement = document.documentElement;
+        
+        const currentTheme = localStorage.getItem('theme') || 
+            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        
+        htmlElement.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const newTheme = htmlElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            htmlElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+
+        /* 
+        ========================================
+        MOBILE MENU
+        ========================================
+        */
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when link clicked
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => navLinks.classList.remove('active'));
+        });
+
+        /* 
+        ========================================
+        REVEAL ANIMATION (IntersectionObserver)
+        ========================================
+        */
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        /* 
+        ========================================
+        MODAL LOGIC
+        ========================================
+        */
+        const modal = document.getElementById('projectModal');
+        const modalBody = document.getElementById('modalBody');
+        const closeModal = document.getElementById('closeModal');
+        
+        const projectData = {
+            "1": {
+                title: "THUNDER EXPENSE TRACKER",
+                subtitle: "Full Stack Web Application",
+                image: "dist/Expense_Tracker.jpg",
+                imageAlt: "Thunder Expense Tracker preview",
+                status: "COMPLETED",
+                primaryActionLabel: "View Live Demo",
+                primaryActionUrl: "https://dimgrey-bison-569365.hostingersite.com/login",
+                secondaryActionLabel: "View Code",
+                secondaryActionUrl: "https://github.com/lrakthunder/Expense-Tracker",
+                overview: "Thunder Expense Tracker is a modern multi-page application built with Laravel 11 and Vue 3 (Vite) for fast local development and smooth client-side interactivity. It provides a polished, responsive dashboard with visual analytics, full CRUD for expenses and income, category management, and a calendar view for transaction tracking. The app includes a custom authentication UI, PDF/CSV reporting and preview capabilities, and a table-driven admin interface designed for easy data management and extensibility.",
+                features: [
+                    "Responsive dashboard with summary cards for daily and monthly spending",
+                    "Interactive charts (pie and bar) for category breakdowns and monthly trends",
+                    "Full CRUD for expenses and income with category management",
+                    "Calendar view for transaction tracking by date",
+                    "Report generation with preview and PDF export options",
+                    "Paginated tables and accessible controls for easy data management",
+                    "Separation of API (Laravel) and frontend (Vue + Vite) for easy extensibility"
+                ],
+                stack: "Vue, PHP, JavaScript, CSS, HTML, Blade, Batchfile, MySQL"
+            },
+            "2": {
+                title: "HOSPITAL APPOINTMENT SYSTEM",
+                subtitle: "Operations & Scheduling Module",
+                image: "dist/Hospital_Appointment_System.jpg",
+                imageAlt: "Hospital Appointment System preview",
+                status: "IN-PROGRESS",
+                primaryActionLabel: "View Live Demo",
+                primaryActionUrl: "#",
+                primaryActionDisabled: true,
+                secondaryActionLabel: "View Code",
+                secondaryActionUrl: "https://github.com/lrakthunder/Hospital-Appointment-System",
+                overview: "Hospital Appointment System is a staff-focused web application for managing patient records, scheduling appointments, and streamlining clinic workflows. The interface provides a searchable patient list, assignment indicators for assigned/unassigned patients, appointment time slots, and calendar-driven scheduling. Designed for clinic staff and administrators, it supports role-based access, quick editing of appointments, and reporting/export capabilities for operational use.",
+                features: [
+                    "Searchable patient registry with assigned/unassigned status",
+                    "Flexible appointment scheduling with date/time slots and staff assignment",
+                    "Calendar and list views for easy tracking of daily appointments",
+                    "Role-based access for receptionists, clinicians, and admins",
+                    "Edit/delete appointments and patient records with confirmation",
+                    "Search, filter, and sort support for fast data retrieval",
+                    "Exportable reports and printable appointment summaries",
+                    "Responsive layout optimized for clinic desktops and tablets"
+                ],
+                stack: "PHP, HTML, TypeScript, CSS, Batchfile, MySQL"
+            },
+            "3": {
+                title: "WORK APPLICATION TRACKER",
+                subtitle: "Workflow & Progress Tracking",
+                image: "dist/Work_Journey.jpg",
+                imageAlt: "Work Application Tracker preview",
+                status: "COMPLETED",
+                primaryActionLabel: "View Live Demo",
+                primaryActionUrl: "https://blanchedalmond-salamander-962993.hostingersite.com/",
+                secondaryActionLabel: "View Code",
+                secondaryActionUrl: "https://github.com/lrakthunder/Work-Journey",
+                overview: "A tool to help users track their job applications and interviews in one place.",
+                features: [
+                    "Responsive UI and accessibility-first design",
+                    "Authentication and user profile management",
+                    "Searchable listings, filters and pagination",
+                    "Admin dashboard for posting and managing vacancies"
+                ],
+                stack: "TypeScript, Batchfile, CSS, Javascript, MySQL"
+            }
+        };
+
+        const openModal = () => {
+            modal.classList.add('active');
+            modal.setAttribute('aria-hidden', 'false');
+            document.body.style.overflow = 'hidden';
+        };
+
+        const closeProjectModal = () => {
+            modal.classList.remove('active');
+            modal.setAttribute('aria-hidden', 'true');
+            document.body.style.overflow = 'auto';
+        };
+
+        const renderProjectModal = (project) => {
+            const featureItems = project.features
+                .map(feature => `<li>${feature}</li>`)
+                .join('');
+
+            modalBody.innerHTML = `
+                <div class="project-modal-head">
+                    <span class="badge">STATUS: ${project.status}</span>
+                    <h2 id="modalTitle">${project.title}</h2>
+                    <p class="project-modal-subtitle">${project.subtitle}</p>
+                </div>
+
+                <div class="project-modal-image-wrap">
+                    <img src="${project.image}" alt="${project.imageAlt}" class="project-modal-image" loading="eager" decoding="async" fetchpriority="high">
+                </div>
+
+                <div class="project-modal-section project-modal-unified-card">
+                    <h3>Project Overview</h3>
+                    <p>${project.overview}</p>
+
+                    <h3>Key Features</h3>
+                    <ul class="project-feature-list">${featureItems}</ul>
+
+                    <h3>Stack</h3>
+                    <p>${project.stack}</p>
+                </div>
+
+                <div class="project-modal-actions">
+                    <a href="${project.primaryActionUrl}" class="btn btn-primary modal-action-btn modal-link-placeholder modal-live-btn" target="_blank" rel="noopener noreferrer">
+                        <span class="modal-action-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 4H20V10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 14L20 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M20 14V18C20 19.1046 19.1046 20 18 20H6C4.89543 20 4 19.1046 4 18V6C4 4.89543 4.89543 4 6 4H10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        ${project.primaryActionLabel}
+                    </a>
+                    <a href="${project.secondaryActionUrl}" class="btn btn-outline modal-action-btn modal-link-placeholder" target="_blank" rel="noopener noreferrer">
+                        <span class="modal-action-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C6.47697 2 2 6.58948 2 12.2521C2 16.7796 4.86543 20.622 8.83951 21.9778C9.33951 22.0734 9.5216 21.7557 9.5216 21.4848C9.5216 21.2418 9.51235 20.4429 9.50772 19.5946C6.72654 20.2195 6.13951 18.2246 6.13951 18.2246C5.68457 17.0293 5.02963 16.7116 5.02963 16.7116C4.1216 16.0641 5.09877 16.0775 5.09877 16.0775C6.1034 16.1508 6.6321 17.1222 6.6321 17.1222C7.5216 18.688 8.96543 18.2357 9.53519 17.9714C9.62531 17.3127 9.88426 16.8627 10.1691 16.6072C7.94753 16.3475 5.61111 15.4558 5.61111 11.4724C5.61111 10.3366 6.00617 9.40827 6.65309 8.67452C6.54753 8.41483 6.19753 7.36952 6.75185 5.95437C6.75185 5.95437 7.59136 5.67952 9.5 6.99514C10.2988 6.76899 11.1543 6.65591 12 6.65128C12.8457 6.65591 13.7012 6.76899 14.5 6.99514C16.4086 5.67952 17.2481 5.95437 17.2481 5.95437C17.8025 7.36952 17.4525 8.41483 17.3469 8.67452C17.9938 9.40827 18.3889 10.3366 18.3889 11.4724C18.3889 15.4664 16.0481 16.3447 13.8185 16.5981C14.1778 16.9181 14.5 17.5459 14.5 18.5126C14.5 19.8984 14.4889 21.0433 14.4889 21.4848C14.4889 21.758 14.6691 22.078 15.1765 21.9755C19.1481 20.6174 22 16.7772 22 12.2521C22 6.58948 17.523 2 12 2Z"/>
+                            </svg>
+                        </span>
+                        ${project.secondaryActionLabel}
+                    </a>
+                </div>
+            `;
+
+            const liveButton = modalBody.querySelector('.modal-live-btn');
+            if (liveButton && project.primaryActionDisabled) {
+                liveButton.removeAttribute('href');
+                liveButton.removeAttribute('target');
+                liveButton.removeAttribute('rel');
+                liveButton.setAttribute('aria-disabled', 'true');
+                liveButton.setAttribute('tabindex', '-1');
+                liveButton.classList.add('is-disabled');
+                liveButton.title = 'Live demo is not available yet';
+            }
+        };
+
+        document.querySelectorAll('.modal-trigger').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const id = btn.getAttribute('data-project');
+                const project = projectData[id];
+                if (!project) return;
+
+                renderProjectModal(project);
+                openModal();
+            });
+        });
+
+        closeModal.addEventListener('click', closeProjectModal);
+
+        window.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && modal.classList.contains('active')) {
+                closeProjectModal();
+            }
+        });
+
+        modal.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                closeProjectModal();
+            }
+        });
+
+        /* 
+        ========================================
+        FORM SUBMISSION
+        ========================================
+        */
+        const contactForm = document.getElementById('contactForm');
+        const toast = document.getElementById('toast');
+
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            // In a real app, you'd use fetch() to a backend here.
+            toast.style.display = 'block';
+            contactForm.reset();
+            setTimeout(() => {
+                toast.style.display = 'none';
+            }, 4000);
+        });
+    </script>
+</body>
+</html>
