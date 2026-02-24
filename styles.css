@@ -627,6 +627,11 @@ footer {
         gap: 28px;
     }
 
+    #contact .contact-wrapper {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
     .work-grid {
         grid-template-columns: 1fr;
         gap: 20px;
